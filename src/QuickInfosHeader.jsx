@@ -5,6 +5,7 @@ function QuickInfosHeader() {
       style={{
         display: "flex",
         justifyContent: "center",
+        alignItems: "center",
         backgroundColor: "#000000",
         color: "white",
         width: "100%",
@@ -13,9 +14,6 @@ function QuickInfosHeader() {
         right: "0",
         top: "0",
         zIndex: "10",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
       }}
     >
       <img src={phoneIcon} style={{ height: "20px" }} alt="" />

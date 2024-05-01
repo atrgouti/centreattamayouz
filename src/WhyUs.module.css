@@ -1,0 +1,72 @@
+.WhyUs {
+  width: 100%;
+  background-color: #f5f5f5;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.WhyUs h1 {
+  color: rgb(84, 84, 84);
+  text-align: center;
+  padding-top: 50px;
+  font-size: 40px;
+}
+.WhyUs h3 {
+  text-align: center;
+  color: rgb(0, 174, 116);
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 30px auto;
+  margin-top: 60px;
+}
+.options .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.options .circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.options .circle img {
+  height: 80px;
+}
+.options .title {
+  color: rgb(84, 84, 84);
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.options .descr {
+  color: gray;
+  text-align: center;
+  margin-top: 5px;
+  width: 250px;
+}
+.options .title:hover {
+  transition: 0.3s ease;
+  color: rgb(0, 174, 116);
+}
+
+@media screen and (max-width: 900px) {
+  .options {
+    flex-direction: column;
+  }
+  .box {
+    margin: 20px;
+  }
+}
