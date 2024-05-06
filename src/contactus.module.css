@@ -1,0 +1,13 @@
+.contactarea {
+  padding-top: 150px;
+  width: 80%;
+  margin: 0px auto;
+  min-height: 80vh;
+}
+.contactarea h1 {
+  text-align: center;
+  padding: 40px;
+}
+.contactarea h3 {
+  padding: 20px 0px;
+}

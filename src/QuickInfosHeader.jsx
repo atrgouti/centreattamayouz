@@ -6,7 +6,7 @@ function QuickInfosHeader() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#000000",
+        backgroundColor: "#0044ff",
         color: "white",
         width: "100%",
         position: "absolute",

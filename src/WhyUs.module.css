@@ -61,6 +61,10 @@
   transition: 0.3s ease;
   color: rgb(0, 174, 116);
 }
+.box a {
+  text-decoration: none;
+  color: white;
+}
 
 @media screen and (max-width: 900px) {
   .options {

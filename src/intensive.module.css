@@ -16,3 +16,7 @@
   cursor: pointer;
   font-weight: bold;
 }
+.area a {
+  text-decoration: none;
+  color: white;
+}

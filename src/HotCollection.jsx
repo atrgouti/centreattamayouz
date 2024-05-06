@@ -11,8 +11,10 @@ function HotCollection() {
         <p>
           Empowering your career dreams with personalized guidance and support.
         </p>
-        <Link to={"/women"}>
-          <button>VIEW OUR COURSES</button>
+        <Link to={"/courses"}>
+          <button>
+            <Link to={"/courses"}>VIEW OUR COURSES</Link>
+          </button>
         </Link>
       </div>
     </section>

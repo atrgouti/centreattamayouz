@@ -11,7 +11,7 @@ function Home() {
   return (
     <div>
       <QuickInfosHeader />
-      <Nav />
+      <Nav ps={"absolute"} tp={"30px"} bc={"transparent"} />
       <HomeSlider />
       <WhyUs />
       <Intensive />

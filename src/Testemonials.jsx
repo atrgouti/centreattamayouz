@@ -14,6 +14,8 @@ import {
 
 // importing the images of the testemonials
 import bilal from "/bilal.jpg";
+import ps2 from "/ps2.jpg";
+import ps3 from "/ps3.jpg";
 
 function Testemonials() {
   return (
@@ -21,7 +23,7 @@ function Testemonials() {
       <div className={styles.testemonials}>
         <div className={styles.title}>
           <ShortLine />
-          <p>Happy Customers</p>
+          <p>Reviews</p>
           <ShortLine />
         </div>
         <div className={styles.reviews}>
@@ -57,20 +59,11 @@ function Testemonials() {
                 "I deal quite a bit with programming and manage a lot of integration with customer services of different companies, but i must say, the quality of your product and the service you offering is the best i have experienced!!"
               }
               numberOfStarts={5}
-              namee={"RICHARD PARKER"}
-              position={"FASHION DESIGNER"}
+              namee={"Bilal ATRGOUTI"}
+              position={"FULL STACK DEVELOPER"}
             />
             <Review
-              image={bilal}
-              description={
-                "I deal quite a bit with programming and manage a lot of integration with customer services of different companies, but i must say, the quality of your product and the service you offering is the best i have experienced!!"
-              }
-              numberOfStarts={5}
-              namee={"RICHARD PARKER"}
-              position={"FASHION DESIGNER"}
-            />
-            <Review
-              image={bilal}
+              image={ps3}
               description={
                 "I deal quite a bit with programming and manage a lot of integration with customer services of different companies, but i must say, the quality of your product and the service you offering is the best i have experienced!!"
               }

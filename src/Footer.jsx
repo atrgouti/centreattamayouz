@@ -43,30 +43,13 @@ function Footer() {
             <li style={{ fontWeight: "700" }}>Information</li>
             <li>
               <ul className={styles.subLinks}>
-                <li>About Us</li>
                 <li>Contact Us</li>
-                <li>Career</li>
-                <li>My Account</li>
-                <li>Orders and Returns</li>
               </ul>
             </li>
           </ul>
         </div>
         {/* quick shop */}
-        <div className={styles.QuickShop}>
-          <ul>
-            <li style={{ fontWeight: "700" }}>Quick Shop</li>
-            <li>
-              <ul className={styles.subLinks}>
-                <li>Fashion</li>
-                <li>Men</li>
-                <li>Furniture</li>
-                <li>Home Decor</li>
-                <li>Shoes</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+
         {/* stay connected */}
         <div className={styles.stayConnected}>
           <p style={{ fontWeight: "700" }}>Contact Us</p>
@@ -89,7 +72,7 @@ function Footer() {
         </div>
       </div>
       <div className={styles.copyRight}>
-        <p>© 2023 MIBI by Bilal Atrgouti. All Rights Reserved.</p>
+        <p>© 2024 ATTAMAYOU CENTRE by BILAL ATRGOUTI. All Rights Reserved.</p>
       </div>
     </footer>
   );

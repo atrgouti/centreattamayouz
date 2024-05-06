@@ -1,0 +1,18 @@
+.area {
+  height: auto;
+  width: 70%;
+  margin: 0px auto;
+  padding-top: 20px;
+  position: relative;
+}
+
+.description {
+  text-align: start;
+  color: rgb(103, 103, 103);
+  line-height: 26px;
+  margin-bottom: 40px;
+  width: 90%;
+  margin: 20px auto;
+  font-size: 15px;
+  padding-bottom: 30px;
+}

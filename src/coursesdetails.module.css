@@ -1,0 +1,36 @@
+.coursedetails {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+}
+.description {
+  width: 70%;
+}
+.description p {
+  line-height: 20px;
+  margin-top: 20px;
+  width: 90%;
+}
+.description .title {
+  margin-top: 30px;
+}
+.description ul {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 90%;
+}
+.description ul li {
+  margin-top: 10px;
+}
+.detel {
+  width: 30%;
+  height: 300px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light gray shadow */
+}
+.detel li {
+  margin-left: 30px;
+  margin-top: 20px;
+}
