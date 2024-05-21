@@ -58,6 +58,20 @@ function Nav({ ps, tp, bc }) {
           style={{ height: "40px", margin: "10px" }}
           onClick={() => setActiveSideBar(false)}
         />
+        <div className={styles.linkos}>
+          <Link to={"/"} onClick={() => setActiveSideBar(false)}>
+            Home
+          </Link>
+          <Link to={"/courses"} onClick={() => setActiveSideBar(false)}>
+            Courses
+          </Link>
+          <Link to={"/blogs"} onClick={() => setActiveSideBar(false)}>
+            Blogs
+          </Link>
+          <Link to={"/contactus"} onClick={() => setActiveSideBar(false)}>
+            contactus
+          </Link>
+        </div>
       </div>
     </nav>
   );

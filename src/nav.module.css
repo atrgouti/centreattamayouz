@@ -55,7 +55,8 @@ nav a {
     right: 0;
     width: 80%;
     height: 100vh;
-    background-color: aquamarine;
+    background-color: rgb(211, 211, 211);
+    color: black;
     z-index: 100;
     display: block;
     transition: 0.3s ease;
@@ -67,10 +68,20 @@ nav a {
     right: 0;
     width: 80%;
     height: 100vh;
-    background-color: aquamarine;
+    background-color: rgb(211, 211, 211);
+    color: black;
     z-index: 100;
     display: block;
     transition: 0.3s ease;
     transform: translateX(0%);
+  }
+  .linkos {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+  }
+  .linkos a {
+    padding-top: 20px;
   }
 }
